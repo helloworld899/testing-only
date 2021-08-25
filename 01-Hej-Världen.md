@@ -12,7 +12,7 @@ Detta kan säga en hel del om språket. Så här ser det programmet ut i Java:
 
 En första tanke, en mycket rimlig en, kan vara att det är väldigt mycket text och symboler för att göra något så enkelt, speciellt i jämförelse med många andra programmeringsspråk. I början behöver du inte förstå alla nyckelord - de kommer vi gå igenom under resten av kursen. Det enda du behöver fokusera på är raden `System.out.println("Hello World");`. Där den raden står just nu kommer vi lägga in andra saker istället, och tackla olika delar av språket en bit i taget.
 
-## Uppgift
+## Övning
 
 Skapa ett nytt projekt i IntelliJ IDEA och kör programmet.
 
