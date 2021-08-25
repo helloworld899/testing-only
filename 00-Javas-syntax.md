@@ -29,3 +29,8 @@ De mer formella namnen på dessa paranteser är enligt Wikipedia detta:
     {...} – fågelkrok, klammerparentes,[1] spetsparentes,[1] krullparentes, måsvingar eller ackolad
 
 Har du något bättre namnförslag du vill dela med dig av?
+
+## Övning
+
+* Kan du hitta alla dessa tecken på ditt tangentbord? Du kommer behöva skriva dem ofta under dessa två år.
+* Bonus: Kan du även hitta `|`, `&`, `^`?
