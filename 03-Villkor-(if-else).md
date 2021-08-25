@@ -35,7 +35,7 @@ Exempel:
       System.out.println("x och y är inte identiska och x är inte större än y");
     }
 
-Det går även att göra flera jämförelser samtidigt med `&&`.
+Det går även att göra flera jämförelser samtidigt med `&&` ("och").
 
     // Jämför flera variabler samtidigt med && ("och")
     int x = 11;
@@ -46,7 +46,7 @@ Det går även att göra flera jämförelser samtidigt med `&&`.
       System.out.println("x är samma som y och x är samma som z");
     }
 
-... eller att bara ena villkoret måste vara sant:
+... eller att bara ena villkoret måste vara sant med `||` ("eller"):
 
     // Jämför flera variabler samtidigt med || ("eller")
     int x = 11;
