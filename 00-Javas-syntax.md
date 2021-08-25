@@ -8,7 +8,7 @@
 
 ## Stora och små bokstäver
 
-Ett Java-program börjar alltid med en klass som heter "Main" och en metod med namnet "main". Observera att Java är _case sensitive_, vilket betyder att det är viktigt och petigt med stor och liten bokstav. Om det inte är rätt så kommer du få felmeddelanden, ofta som säger något i stil med "du har använt dig av `persilja` vilket jag inte har någon aning om vad det är", när du kanske menade `Persilja`. I datorns värld är dessa två ord som kanske ser ut som samma ord för oss helt olika saker.
+Ett Java-program börjar alltid med en klass som heter "Main" och en metod med namnet "main". Observera att Java är _case sensitive_, vilket betyder att det är viktigt och petigt med stor och liten bokstav. Om det inte är rätt så kommer du få felmeddelanden, ofta som säger något i stil med "du har använt dig av `persilja` vilket jag inte har någon aning om vad det är", när du kanske menade `Persilja`. Du och jag kanske tycker datorn är lite väl kinkig ibland, men i datorns värld så är dessa två ord helt olika ord som inte har någonting med varandra att göra.
 
 ## Kodblock och konstiga paranteser
 
