@@ -26,7 +26,7 @@ I talat språk säger vi att vi "deklarerar variabeln myNum av typen integer med
 
 Det finns fler sorters variabler, och fler sorters integers, men de sparar vi till senare i kursen.
 
-## Uppgift
+## Övning
 
 Experimentera med de olika datatyperna. Ta exemplet från vår Hello World och skriv om det.
 
