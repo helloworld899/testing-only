@@ -14,6 +14,10 @@ Gör så långt du kan så länge övningarna handlar om saker vi gått igenom. 
 
 https://www.w3schools.com/java/default.asp
 
+De har även en quiz: https://www.w3schools.com/java/java_quiz.asp (testa dig själv och se hur långt du kommer - även en bra uppvärmning dagligen)
+
+Och en sida i ett lite annat format som går lite mer direkt på: https://www.w3schools.com/java/exercise.asp?filename=exercise_syntax1
+
 ## w3resource
 
 Lämplig från vecka: 1
