@@ -14,7 +14,7 @@ https://www.w3schools.com/java/default.asp
 
 ## code-exercises.com
 
-Lämplig från vecka: 3 och framåt
+Lämplig från vecka: 3 och framåt (de 6 första övningarna under "Easy", resterande övningar är mer avancerade).
 
 Det här är en mycket bra sida du kan göra många små övningar direkt i webbläsaren. I början kan det vara svårt att förstå vad exakt de menar att en ska göra, då många ord är nya. Det som är extra fint med den här sidan är dock att du alltid kan klicka på knappen "solutions" och få se svaren. Var inte rädd för att använda den knappen, dölja svaret och försöka skriva det själv.
 
