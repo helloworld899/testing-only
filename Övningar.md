@@ -1,5 +1,7 @@
 Här är en samling med sidor med bra övningsmaterial. Inget av detta är betygsgrundande, utan är bara bra resurser med bra övningar som du kan använda för att utmana dig själv. Har du löst veckans kodäventyr, eller om du bara behöver ta en liten paus från det, så är detta bra sidor att spendera tid med.
 
+Fritt fram att göra övningarna i vilken ordning du vill på respektive sida, och fritt fram att hoppa över övningar som handlar om saker vi inte ännu gått igenom.
+
 Har du hittat en sida du tycker passar in här så dela gärna med dig av den nästa gång vi är i helklass.
 
 ## w3schools
@@ -11,6 +13,14 @@ Det här är en sida för absoluta nybörjare och framåt. De första övningarn
 Gör så långt du kan så länge övningarna handlar om saker vi gått igenom. När övningarna tar upp nya saker kan du testa dig fram eller göra egna övningar i IntelliJ. Vad kan du göra med en av deras övningar för att göra den lite svårare för dig själv? Vad skulle det kunna användas till?
 
 https://www.w3schools.com/java/default.asp
+
+## w3resource
+
+Lämplig från vecka: 1
+
+Bra övningar i stor mängd. Vissa tidiga övningar tar upp saker jag skulle vänta lite med att ta upp, men övningarna i sig är bra. Du behöver inte ta dem i ordning, utan gör de som är intressanta och mest givande för dig.
+
+https://www.w3resource.com/java-exercises/basic/index.php
 
 ## code-exercises.com
 
