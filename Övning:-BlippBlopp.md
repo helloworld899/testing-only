@@ -1,4 +1,4 @@
-Det här är en lite avancerad övning som går att lösa på många sätt. För denna övning kommer jag inte ge några tips om hur ni kan lösa den, utan det får ni försöka fundera ut samtidigt. Om ni upptäcker/vet att den här övningen finns med andra namn, så behåll gärna det för er själva, så att ni inte kollar på lösningsförslag.
+Det här är en lite avancerad övning som går att lösa på många sätt. För denna övning kommer jag inte ge några tips om hur ni kan lösa den, utan det får ni försöka fundera ut själva. Om ni upptäcker/vet att den här övningen finns med andra namn, så behåll gärna det för er själva, så att ni inte kollar på lösningsförslag.
 
 Ett facit kan vara hjälpsamt många gånger, men det här är och ska vara en utmaning.
 
