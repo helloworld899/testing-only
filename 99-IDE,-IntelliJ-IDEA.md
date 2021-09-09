@@ -18,4 +18,4 @@ Välj att skapa ett nytt projekt efter att du startat IntelliJ.
 * Base Package: se.jensen.caws21.helloworld
 * Finish
 
-Du är nu redo för Hello World. 
+Du är nu redo för [Hello World](https://github.com/zocom-bjorn-pettersson/CAWS21/wiki/01-Hej-V%C3%A4rlden).
