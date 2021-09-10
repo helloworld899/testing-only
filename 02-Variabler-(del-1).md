@@ -58,6 +58,8 @@ Skriv ett program som skriver ut följande:
     Ålder: 30
     Mening: Jag heter förnamn efternamn och jag är så här gammal: 200!
 
+Ett nästan komplett lösningsförslag, eller inspiration, finns här: https://gist.github.com/zocom-bjorn-pettersson/da1330537635e85ff660c304a53ad608
+
 ### Övning 2: Tips
 
 Gör en variabel `firstName` av typ `String` som har ditt förnamn som värde.
