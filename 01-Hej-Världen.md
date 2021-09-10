@@ -20,7 +20,7 @@ Skapa ett nytt projekt i IntelliJ IDEA och kör programmet.
 
 Testa byta ut strängen mot något annat, exempelvis texten "Tittat på mig, jag är en programmerare!".
 
-Om du har problem med IntelliJ så prata antingen med en klasskamrat eller ta upp det med mig nästa gång vi ses i helklass.
+Om du har problem med IntelliJ så prata antingen med en klasskamrat eller ta upp det med mig.
 
 ## Se även
 
