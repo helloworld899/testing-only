@@ -48,6 +48,23 @@ Testa deklarera fler variabler och skriv ut dem med `System.out.println()`. Vad 
     
     System.out.println("En person vid namn " + namn + " har favoritnumret " + favoritsiffra);
 
+## Övning 2
+
+Skriv ett program som skriver ut följande:
+
+    Förnamn: förnamn
+    Efternamn: efternamn
+    Fullständigt namn: förnamn efternamn
+    Ålder: 30
+    Mening: Jag heter förnamn efternamn och jag är så här gammal: 200!
+
+### Övning 2: Tips
+
+Gör en variabel `firstName` av typ `String` som har ditt förnamn som värde.
+Gör en variabel `lastName` av typ `String` som har ditt efternamn som värde.
+Gör en variabel av typ `int` som har din ålder som värde.
+Skriv ut ditt fullständiga namn genom att använda `System.out.println(firstName + " " + lastName);`.
+
 ## Att ändra ett värde
 
 Efter att ha deklarerat en variabel kan vi ge den ett nytt värde utan att nämna datatypen igen.
