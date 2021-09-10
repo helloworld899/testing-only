@@ -24,7 +24,7 @@ Vad vi också kan se är ordningen orden ovan kommer i. Exempel:
 
 Första ordet är vilken typ det är (en integer). Andra ordet är namnet på variabeln. Sen kommer ett likamedtecken. Efter det kommer värdet variabeln har (5), och i slutet av raden kommer ett semikolon (;).
 
-I talat språk säger vi att vi "deklarerar variabeln myNum av typen integer med värdet 5".
+I talat språk säger vi att vi **"deklarerar variabeln myNum av typen integer med värdet 5"**.
 
 Det finns fler sorters variabler, och fler sorters integers, men de sparar vi till senare i kursen.
 
