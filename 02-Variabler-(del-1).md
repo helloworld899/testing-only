@@ -1,10 +1,12 @@
-I Java finns många olika sorters variabler. Här är några exempel:
+I Java finns många olika sorters variabler. Här är några exempel av variabler av olika "datatyper":
 
     int myNum = 5;
     float myFloatNum = 5.99f;
     char myLetter = 'D';
     boolean myBool = true;
     String myText = "Hello";
+
+Alla dessa är så kallade "primitiva datatyper" med undantaget String, som inte är en primitiv datatyp. Det kommer vi prata om mer senare.
 
 En i taget:
 
