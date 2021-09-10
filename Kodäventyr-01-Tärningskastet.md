@@ -16,22 +16,22 @@ Och på eftermiddagen:
 * Hur har det gått idag? Vad har jag stött på eller löst för problem?
 * Vad har ni lärt er idag? Även de minsta småsaker räknas!
 
-Redovisning
+## Redovisning
 
 På onsdag när den här uppgiften ska vara klar så kommer ni presentera för varandra i mindre grupper. Jag kommer kolla läget med alla, se hur det har gått för er, och höra vad ni har för frågor.
 
 Den här uppgiften är inte betygsgrundande.
 
-Uppgiften
+## Uppgiften
 
 Skapa ett nytt projekt i IntelliJ, i stil med instruktionen här, men med små ändringar:
 * https://github.com/zocom-bjorn-pettersson/CAWS21/wiki/99-IDE,-IntelliJ-IDEA#starta-ditt-f%C3%B6rsta-projekt
 
 Ändringar från den instruktionen:
-* Project name: AdventureDice
-* Base Package: se.jensen.caws21.adventuredice
+* Project name: **AdventureDice**
+* Base Package: **se.jensen.caws21.adventuredice**
 
-De exakta namnen är viktiga.
+**De exakta namnen är viktiga.**
 
 Ersätt sedan hela filen med texten nedan:
 
