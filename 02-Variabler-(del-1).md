@@ -77,6 +77,19 @@ Däremot kan du inte byta datatyp senare. Vad får du för felmeddelande om du f
 * Varför använder vi variabler?
 * Varför får vi inte ändra datatyp (som siffran 12 till strängen "Tolv" ovan)?
 
+### Stora tal
+
+2 000 000 000, eller två miljoner miljarder, är ett stort tal. Enligt matematikens alla regler så är den här uträkningen rätt:
+
+    2 000 000 000 * 2 = 4 000 000 000
+
+Eller hur? Men vad händer om du försöker räkna ut det i Java? Blir resultatet vad du förväntade dig? Om inte, varför inte?
+
+Notera att i Java så måste tal skrivas ihop utan mellanslag, men för att göra det mer läsbart kan du använda tecknet `_` mellan siffrorna:
+
+    int aBigNumber = 2_000_000_000;
+    System.out.println(aBigNumber * 2);
+
 ## Glosor
 
 * variabel
