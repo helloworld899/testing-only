@@ -22,6 +22,18 @@ På onsdag när den här uppgiften ska vara klar så kommer ni presentera för v
 
 Den här uppgiften är inte betygsgrundande.
 
+## Errata - ett fel har hittats sedan i fredags
+
+Denna rad som var med i fredags:
+
+    int dice_value = myRandom.nextInt(5) + 1;
+
+Ska egentligen vara så här:
+
+    int dice_value = myRandom.nextInt(6) + 1;
+
+Detta uppdaterades nedan måndag morgon.
+
 ## Uppgiften
 
 Skapa ett nytt projekt i IntelliJ, i stil med instruktionen här, men med små ändringar:
@@ -46,7 +58,7 @@ Ersätt sedan hela filen med texten nedan:
     
             /* Dessa två rader genererar ett tal mellan 1 och 6. Exakt hur kommer vi prata om senare. */
             Random myRandom = new Random();
-            int dice_value = myRandom.nextInt(5) + 1;
+            int dice_value = myRandom.nextInt(6) + 1;
     
             /* Ta bort de fem raderna nedan och ersätt dem med följande:
              * o Deklarera en variabel "points" av typen integer med värde 0, denna kommer användas för att räkna poäng
