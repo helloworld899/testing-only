@@ -1,4 +1,4 @@
 
 ***
 
-[Se denna sidas historik](./_history)
+[Vad är senast ändrat på wikin?](./_history)
