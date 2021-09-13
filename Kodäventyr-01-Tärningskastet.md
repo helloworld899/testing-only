@@ -32,6 +32,8 @@ Ska egentligen vara så här:
 
     int dice_value = myRandom.nextInt(6) + 1;
 
+Annars kommer ni aldrig på upp siffran 6.
+
 Detta uppdaterades nedan måndag morgon.
 
 ## Uppgiften
