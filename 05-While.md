@@ -9,6 +9,15 @@ En "while"-loop är en bit kod som körs om och om igen så länge villkoret som
     
     System.out.println("Färdigräknat");
 
+Den koden skriver ut det här:
+
+    Counting: 0
+    Counting: 1
+    Counting: 2
+    Counting: 3
+    Counting: 4
+    Färdigräknat
+
 ## För kalla dagar
 
 Det här är första exemplet kod som kan få din dators fläktar att börja snurra och som kan ge dig lite problem. Om du någon gång varit med om att program kanske bara slutar svara och din mobil inte reagerar vad du än gör så kan det vara någonting i stil med detta som hänt. Även om detta är ett ganska förenklat exempel.
@@ -18,7 +27,7 @@ Det här är första exemplet kod som kan få din dators fläktar att börja snu
       System.out.println("Hello");
     }
 
-Den här kommer skriva ut texten "Hello" så länge programmet är igång, och det enda sättet du kan få programmet att avsluta är genom att tvångsavsluta det.
+Den här kommer skriva ut texten "Hello" så länge programmet är igång, och det enda sättet du kan få programmet att avsluta är genom att tvångsavsluta det. **I IntelliJ avbryter du det genom att trycka på den röda fyrkanten till vänster om där den skriver ut "Hello", där nere i programmet.**
 
 ## Se även
 
