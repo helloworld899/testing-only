@@ -28,6 +28,10 @@ Exempel från w3:
     }
     // Outputs "Thursday" (day 4)
 
+## Övningar
+
+Gör Kodäventyr #1 igen, men använd en switch-sats istället för en if-sats.
+
 ## Se även
 
 * Mer exempel och övningar: https://www.w3schools.com/java/java_switch.asp
