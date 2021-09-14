@@ -56,26 +56,30 @@ Men den där koden fungerar inte. Vi säger ju var den ska användas, men inte p
       location: class variabeltest2
     1 error
 
-Och vad står det här? Det viktiga är den första raden `error: cannot find symbol`. Den säger också vilken fil det är i `variabeltest2.java` i detta fall, det kan stå `Main.java` där för er om ni lägger in detta i IntelliJ. Det står också vilken rad felet är på, direkt efter filnamnet, `:12` betyder "rad 12".
+Och vad står det här? Det viktiga är den första raden `error: cannot find symbol`. 
 
-`symbol`, som den inte kan hitta, är i detta fall vår variabel.
+Den säger också:
+* vilken fil det är: `variabeltest2.java` i detta fall. Det kan stå `Main.java` för er om ni testar i IntelliJ.
+* vilken rad felet är på, direkt efter filnamnet, `:12` betyder "rad 12"
+* att det är en `symbol` som den inte kan hitta, som i detta fall är vår variabel
+* vilken variabel det hanlar om: `variable lastValue`
+* hela raden kod där felet hittades, och med en liten pil var på den raden felet hittades
 
-Sen säger den också vilken variabel det är: `variable lastValue`.
+Vi kan också se att rad 12 inte är där vi _deklarerar_ variabeln (vilket är på rad 7), utan var vi _använder_ den (vilkte är på rad 12).
 
-Om vi räknar raderna så ser vi att rad 12, och den kodrad som skrivits ut, inte är när vi deklarerar variabeln (vilket är på rad 7), utan var vi använder den (på rad 12).
-
-Det här hanlar om kodblock, och variablers "scope", eller _var variabler syns_. I detta fall så existerar inte `lastValue` på rad 12. `lastValue` existerar i detta fall endast i while-loopen, och när while-loopen är slut så försvinner allt som gjordes i den, _som inte berörde variabler som deklarerats utanför while-loopen_, som exempelvis `counter`.
+Det här hanlar om kodblock, och variablers "scope", eller _var variabler syns_ eller _var variabler existerar_. I detta fall så existerar inte `lastValue` på rad 12. `lastValue` existerar i detta fall endast i `while`-loopen, och när `while`-loopen är slut så försvinner allt som gjordes i den _som inte berörde variabler som deklarerats utanför while-loopen_ som exempelvis `counter`.
 
 Kodblock är en hierarki. Under `class`-blocket finns `public static void main`-blocket, och direkt under den finns både `counter` och `while`-blocket.
 
 **Ett kodblock börjar med tecknet `{` och avslutas med tecknet `}`.**
 
-Skillnaderna mellan de två olika exemplena:
+Skillnaderna mellan våra två olika exempel:
 
 * I det fungerande exemplet är `lastValue` deklarerad i `while`-blocket
 * I det trasiga exemplet är `lastValue` deklarerad i `public static void main`-blocket, men det viktiga är inte att det deklareras i _just det blocket_ utan att det deklareras _innan_ och _ovanför_ `while`-blocket
 
 För att:
 
-* Ett kodblock kan använda variabler deklarerade i blocket i sig, men även variabler deklarerade _ovanför_
-* Det betyder också att ett kodblock inte kan använda sig av variabler som deklareras i _underliggande_ block
+* Ett kodblock kan använda variabler deklarerade inom sitt eget block
+* Ett kodblock kan använda och manipulera variabler **deklarerade** _ovanför_ sitt eget block
+* Ett kodblock kan **inte** använda sig av variabler som deklareras i _underliggande_ block
