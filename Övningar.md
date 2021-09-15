@@ -18,6 +18,14 @@ De har även en quiz: https://www.w3schools.com/java/java_quiz.asp (testa dig sj
 
 Och en sida i ett lite annat format som går lite mer direkt på: https://www.w3schools.com/java/exercise.asp?filename=exercise_syntax1
 
+## Exercism
+
+Lämplig från vecka: 1
+
+Massvis av bra övningar som börjar i grunden och blir svårare och svårare.
+
+https://exercism.org/tracks/java
+
 ## w3resource
 
 Lämplig från vecka: 1
