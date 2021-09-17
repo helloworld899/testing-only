@@ -33,6 +33,14 @@ Vad gör denna kod? Kan du med papper och penna räkna ut vad den gör, steg fö
       System.out.println();
     }
 
+## Övning
+
+Vi har tidigare (som i Kodäventyr #1) kastat tärning. Hur kan du använda en for-loop för att kasta tärningen flera gånger?
+
+Extra:
+* Använd Scanner för att låta användaren bestämma hur många gånger tärningen ska kastas
+* Ha en variabel som heter `total` som du sparar totalen av alla tärningar (om 5 tärningskast landar på 5 blir det 25 poäng, exempelvis)
+
 ## Se även
 
 * Mer exempel och övningar: https://www.w3schools.com/java/java_for_loop.asp
