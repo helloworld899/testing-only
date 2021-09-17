@@ -1,9 +1,3 @@
-# Uppdateringar
-
-Lade till denna rad på fredag eftermiddag:
-
-    userKeyboard.nextLine(); // Nollställer userKeyboard - se video från 2021-09-17 för detaljer - kör denna rad efter varje gång vi ber om input
-
 # Kodäventyr #2: Många tärningskast
 
     import java.util.Random;
@@ -47,7 +41,6 @@ Lade till denna rad på fredag eftermiddag:
                 // Notera ".print()" istället för ".println()" för att inte ha med radbrytning
                 System.out.print("> ");
                 int menuChoice = userKeyboard.nextInt();
-                userKeyboard.nextLine(); // Nollställer userKeyboard - se video från 2021-09-17 för detaljer - kör denna rad efter varje gång vi ber om input
     
                 // ------------------------------------------------
                 // UPPGIFT DEL 2/3:
