@@ -1,6 +1,7 @@
 # Uppdateringar
 
 Lade till denna rad på fredag eftermiddag:
+
     userKeyboard.nextLine(); // Nollställer userKeyboard - se video från 2021-09-17 för detaljer - kör denna rad efter varje gång vi ber om input
 
 # Kodäventyr #2: Många tärningskast
