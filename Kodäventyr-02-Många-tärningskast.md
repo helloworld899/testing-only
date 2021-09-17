@@ -1,5 +1,10 @@
 # Kodäventyr #2: Många tärningskast
 
+* Det här spelet presenterar en meny som ger användaren två alternativ. Att kasta tärning, och att avsluta programmet
+* Spelet går ut på att få så många poäng som möjligt
+* Varje tärningskast lägger till tärningens värde till din total
+* MEN; Om du kastar tärningen och den landar på en etta så nollställs poängen. Testa spelet innan du gör ändringar!
+
     import java.util.Random;
     import java.util.Scanner;
     
