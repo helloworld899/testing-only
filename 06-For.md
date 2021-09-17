@@ -41,6 +41,8 @@ Extra:
 * Använd Scanner för att låta användaren bestämma hur många gånger tärningen ska kastas
 * Ha en variabel som heter `total` som du sparar totalen av alla tärningar (om 5 tärningskast landar på 5 blir det 25 poäng, exempelvis)
 
+Exempel för att komma igång med for-loopar och tärningar: https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/forLoops/ForExample01.java
+
 ## Se även
 
 * Mer exempel och övningar: https://www.w3schools.com/java/java_for_loop.asp
