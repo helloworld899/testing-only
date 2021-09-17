@@ -5,6 +5,8 @@
 * Varje tärningskast lägger till tärningens värde till din total
 * MEN; Om du kastar tärningen och den landar på en etta så nollställs poängen. Testa spelet innan du gör ändringar!
 
+Lycka till! Glöm inte att prata med dina klasskamrater under dagarna ni jobbar hemifrån.
+
     import java.util.Random;
     import java.util.Scanner;
     
