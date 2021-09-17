@@ -5,6 +5,8 @@
 * Varje tärningskast lägger till tärningens värde till din total
 * MEN; Om du kastar tärningen och den landar på en etta så nollställs poängen. Testa spelet innan du gör ändringar!
 
+Hur du skapar projekt gick vi igenom på onsdagen den 15 september. Video finns på Google Drive, länkad på Learnpoint. Allt annat finns tillgängligt på wikin eller på länkade sidor.
+
 Lycka till! Glöm inte att prata med dina klasskamrater under dagarna ni jobbar hemifrån.
 
     import java.util.Random;
