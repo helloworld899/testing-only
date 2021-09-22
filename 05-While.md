@@ -68,6 +68,14 @@ Det här är första exemplet kod som kan få din dators fläktar att börja snu
 
 Den här kommer skriva ut texten "Hello" så länge programmet är igång, och det enda sättet du kan få programmet att avsluta är genom att tvångsavsluta det. **I IntelliJ avbryter du det genom att trycka på den röda fyrkanten till vänster om där den skriver ut "Hello", där nere i programmet.**
 
+## Övning
+
+Skapa en meny med och låt användaren välja alternativ i menyn med hjälp av Scanner.
+
+Pseudokod:
+
+    
+
 ## Se även
 
 * Mer exempel och övningar: https://www.w3schools.com/java/java_while_loop.asp
