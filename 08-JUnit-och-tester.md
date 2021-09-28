@@ -1,5 +1,11 @@
 **OBS:** Det här är ett komplement till en inspelad föreläsning.
 
+## Förväntningar och introduktion
+
+Till er slutuppgift för den här kursen så kommer ni behöva använda er av tester på en grundnivå. Ni kommer inte behöva göra något komplicerat. Det här är en introduktion till tester som vi arbetar vidare med senare.
+
+Det går att spendera otroligt mycket tid på att skapa tester. Ni behöver bara ha en förståelse för det enklaste.
+
 ## Vad är tester?
 
 Ett "test" är en bit kod, precis som all annan Java-kod vi använder. Just nu kommer vi fokusera på JUnit, ett verktyg vi använder för att göra "unit-tester", eller "enhetstester". Syftet med enhetstester är att testa mindre bitar kod individuellt.
@@ -29,11 +35,12 @@ Gradle är vad du använder om du gör Android-projekt.
 ## Förberedelser
 
 * Skapa ett nytt projekt och kryssa i rutan om att vi vill använda Gradle
+* Ange grupp-namn `se.jensen.caws21.w39`
 * Bekräfta att vår Gradle-fil (`build.gradle`) innehåller de beroenden ("dependencies") vi behöver och konfigurationen för att köra JUnit (se nedan)
-* Skapa ett paket under main/java och döp det till exempelvis `com.jensen.caws21.testexempel`
-* Skapa en klass i det paketet och döp det till exempelvis `MittProjekt`
+* Skapa ett paket under main/java och döp det till exempelvis `se.jensen.caws21.w39.testexperiment`
+* Skapa en klass i det paketet och döp det till exempelvis `MyProgram`
 * Skapa ett till paket under test/java och ge det precis samma namn som det under main/java
-* Skapa en klass i paketet under test/java och döp det till precis samma sak som det under main/java fast med ordet "Test" efter, exempelvis `MittProjektTest`
+* Skapa en klass i paketet under test/java och döp det till precis samma sak som det under main/java fast med ordet "Test" efter, exempelvis `MyProgramTest`
 
 build.gradle:
 
@@ -41,7 +48,7 @@ build.gradle:
         id 'java'
     }
 
-    group 'com.jensen.caws21.mittprojekt'
+    group 'se.jensen.caws21.w39'
     version '1.0-SNAPSHOT'
 
     repositories {
@@ -57,6 +64,43 @@ build.gradle:
     test {
         useJUnitPlatform()
     }
+
+`main/java/se.jensen.caws21.w39/MyProgram`:
+
+    package se.jensen.caws21.w39.testexperiment;
+    
+    public class MyProgram {
+        public static void main(String[] args) {
+            int myNumber1 = 3;
+            int myNumber2 = 4;
+            
+            int result = addition(myNumber1, myNumber2);
+    
+            System.out.printf("%d + %d = %d", myNumber1, myNumber2, result);
+        }
+        
+        public static int addition(int num1, int num2) {
+            return num1 + num2;
+        }
+    }
+
+`test/java/se.jensen.caws21.w39/MyProgramTest`:
+
+    package se.jensen.caws21.w39.testexperiment;
+
+    import org.junit.jupiter.api.Assertions;
+    import org.junit.jupiter.api.Test;
+
+    public class ExampleTest {
+        @Test
+        void testAddition() {
+            Assertions.assertEquals(0, Example.addition(0, 0));
+            Assertions.assertEquals(4, Example.addition(3, 1));
+            Assertions.assertEquals(200, Example.addition(100, 100));
+        }
+    }
+
+För att köra just det testet kan du trycka på den gröna pilen intill "void testAddition".
 
 # Annat material om tester
 
