@@ -31,9 +31,9 @@ Gradle är vad du använder om du gör Android-projekt.
 * Skapa ett nytt projekt och kryssa i rutan om att vi vill använda Gradle
 * Bekräfta att vår Gradle-fil (`build.gradle`) innehåller de beroenden ("dependencies") vi behöver och konfigurationen för att köra JUnit (se nedan)
 * Skapa ett paket under main/java och döp det till exempelvis `com.jensen.caws21.testexempel`
-* Skapa en klass i det paketet och döp det till exempelvis `MittTest`
+* Skapa en klass i det paketet och döp det till exempelvis `MittProjekt`
 * Skapa ett till paket under test/java och ge det precis samma namn som det under main/java
-* Skapa en klass i paketet under test/java och döp det till precis samma sak som det under main/java
+* Skapa en klass i paketet under test/java och döp det till precis samma sak som det under main/java fast med ordet "Test" efter, exempelvis `MittProjektTest`
 
 build.gradle:
 
