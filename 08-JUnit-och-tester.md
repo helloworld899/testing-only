@@ -16,6 +16,14 @@ JUnit är ett ramverk för att göra enhetstester i Java.
 
 Vi börjar med att skriva ett enkelt program där vi använder oss av metoder. En metod tar ofta några argument, och retunerar någonting baserat på vad vi matade in.
 
+## Vad är Gradle? Vad är Maven?
+
+Maven och Gradle är hjälpredor som gör saker åt oss i våra projekt. Den hjälper till med beroenden (importer vi gör som är utanför standardbiblioteket - något vi inte gjort tidigare men som kommer senare i er Java-användning) och kör tester åt oss.
+
+Maven och Gradle löser samma problem på lite olika sätt. Maven är en gammal klassiker, medan Gradle är lite mer modern och konfigurationsfilerna är mycket mer lättlästa, vilket är varför vi fokuserar på Gradle just nu.
+
+Gradle är vad du använder om du gör Android-projekt.
+
 # Exempel
 
 ## Förberedelser
@@ -49,3 +57,9 @@ build.gradle:
     test {
         useJUnitPlatform()
     }
+
+# Annat material om tester
+
+## JUnit med Maven (alternativ till Gradle, men fokusera på de andra bitarna)
+* https://www.youtube.com/watch?v=flpmSXVTqBI Java Testing - JUnit 5 Crash Course 
+* https://programmingtechie.com/2020/12/26/junit-5-complete-tutorial/
