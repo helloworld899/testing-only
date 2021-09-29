@@ -15,3 +15,6 @@ Fördelar med metoder:
 Exempel finns här: https://github.com/zocom-bjorn-pettersson/CAWS21/tree/main/methodIntro
 
 I det första exemplet är koden utan metoder, och sedan ändrar vi koden lite för varje nytt exempel. Titta på dem en efter en och jämför dem. Testa köra dem och experimentera själv.
+
+Läs även om metoder på W3Schools: https://www.w3schools.com/java/java_methods.asp
+Övningar finns här: https://www.w3schools.com/java/exercise.asp?filename=exercise_methods1
