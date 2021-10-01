@@ -51,17 +51,28 @@ I det första exemplet är koden utan metoder, och sedan ändrar vi koden lite f
 
 ## Hur säger vi vad en metod ska retunera?
 
-Den här definitionen av en metod retunerar ingenting:
+Den här metoden retunerar ingenting:
 
     public static void myMethod1() {
+        System.out.println("Hello.");
+    }
 
 Den här metoden retunerar en int:
 
-    public static int myMethod1() {
+    public static int myMethod2() {
+        int myNumber = 3;
+        return myNumber;
+    }
 
 Den här metoden retunerar en array av integers:
 
-    public static int[] myMethod1() {
+    public static int[] myMethod3() {
+        int[] myArray = new int[2]; // En array av längden två
+        myArray[0] = 5;
+        myArray[1] = 2;
+        
+        return myArray; // Retunera arrayen
+    }
 
 ## Övningar
 
