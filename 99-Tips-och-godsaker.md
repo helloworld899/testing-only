@@ -35,4 +35,6 @@ Mer information: https://www.w3schools.com/java/java_user_input.asp
 
 ## Print format: `printf()`
 
+Se inspelning från 2021-10-01.
+
 https://w3.cs.jmu.edu/molloykp/teaching/cs149/cs149_2020Fall/labs/ScannerPrintfLab/printf_reference.pdf
