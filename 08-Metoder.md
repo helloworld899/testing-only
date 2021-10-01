@@ -49,6 +49,20 @@ Exempel finns här: https://github.com/zocom-bjorn-pettersson/CAWS21/tree/main/m
 
 I det första exemplet är koden utan metoder, och sedan ändrar vi koden lite för varje nytt exempel. Titta på dem en efter en och jämför dem. Testa köra dem och experimentera själv.
 
+## Hur säger vi vad en metod ska retunera?
+
+Den här definitionen av en metod retunerar ingenting:
+
+    public static void myMethod1() {
+
+Den här metoden retunerar en int:
+
+    public static int myMethod1() {
+
+Den här metoden retunerar en array av integers:
+
+    public static int[] myMethod1() {
+
 ## Övningar
 
 Titta först på länkarna till w3schools nedanför och länken ovanför med mitt exempel.
