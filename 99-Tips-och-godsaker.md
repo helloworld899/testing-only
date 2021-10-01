@@ -32,3 +32,7 @@ Till detta använder vi Scanner:
 
 
 Mer information: https://www.w3schools.com/java/java_user_input.asp
+
+## Print format: `printf()`
+
+https://w3.cs.jmu.edu/molloykp/teaching/cs149/cs149_2020Fall/labs/ScannerPrintfLab/printf_reference.pdf
