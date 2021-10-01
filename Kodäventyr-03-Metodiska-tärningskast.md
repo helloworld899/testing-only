@@ -26,10 +26,11 @@ Skapa ett program som innehåller detta:
 * Metod som heter `throwDie()`
 * * Inga argument
 * * Retunerar en integer som är ett slumpat tal mellan 1 och 6
+* * Denna metod kan du anropa från metoden `throwMultipleDice()`
 * Metod som heter `throwMultipleDice()`
 * * Syfte: Slumpa fram `numberOfDice` antal tal
 * * Tar emot ett argument `int numberOfDice`
-* * Retunerar en array av integers där varje element i arrayen är ett slumpat tal mellan 1 och 6. Antalet element (integers i detta fall) i arrayen är `numberOfDice`
+* * Retunerar en array av integers där varje element i arrayen är ett slumpat tal mellan 1 och 6. Antalet element (integers i detta fall) i arrayen är `numberOfDice`. (Om `numberOfDice`är 5 är antalet element i arrayen 5. "Antalet element" är samma sak som "arrayens längd".)
 * Metod som heter `sumNumbers()`
 * * Syfte: Retunera summan av alla tal i arrayen du ger som argument till metoden
 * * Tar emot ett argument som är en array av integers
