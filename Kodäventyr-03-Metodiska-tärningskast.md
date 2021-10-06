@@ -74,3 +74,7 @@ Blir du klar och vill fortsätta testa svårare saker så gör en eller fler av 
 * * Exempelvis ger ett par i femmor 10 poäng
 * * Triss i treor ger 9 poäng
 * * Kåk ger totalen av alla fem tärningar
+
+## Genomgång 2021-10-06
+
+Se kod här: https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/CodeAdventures/CodeAdventure03.java
