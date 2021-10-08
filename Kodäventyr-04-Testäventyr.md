@@ -140,4 +140,10 @@ Testa göra lite mattemetoder. Metoder som gör enkla matematiska uträkningar. 
 - double(int a, int b) som dubblar värdet av a och b
 - divide(int a, int b) som delar a med b och retunerar svaret. Obs: Du kan behöva retunera en float här, då division inte alltid blir till heltal
 
+Anropa dessa metoder ifrån din `main`-metod. Testa kalla en metod från en annan metod.
+
 Samla felmeddelanden (anteckna dem någonstans och ta med till nästa lektion).
+
+## Inspiration
+
+Titta på den kod jag laddat upp här: https://github.com/zocom-bjorn-pettersson/CAWS21
