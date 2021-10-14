@@ -4,7 +4,7 @@ Git är ett versonshanteringssystem (Version Control System, VCS).
 
 * Skapa ett konto på GitHub
 * Skapa ett repo ("repository")
-* Importera repot i IntelliJ (File > New > Project from Version Control) - adressen du anger till repot hittar du genom den gröna knappen i ditt repo.
+* Importera repot i IntelliJ (File > New > Project from Version Control) och välj GitHub och koppla IntelliJ till ditt GitHub-konto. Då kommer dina repon dyka upp i listan.
 
 ## Andra verktyg
 
