@@ -4,6 +4,30 @@ Läs dessa sidor på W3Schools:
 * https://www.w3schools.com/java/java_hashmap.asp
 * https://www.w3schools.com/java/java_wrapper_classes.asp
 
+## Övning
+
+Skapa ett nytt projekt. I det här projektet ska du ha:
+
+* En meny
+* Ett menyalternativ där användaren får skriva in en favoritfilm
+* Favoritfilmen ska läggas in i en ArrayList
+* Ett menyalternativ där alla filmer skrivs ut
+* Ett menyalternativ där användaren får ta bort en film ur listan (se beskrivning nedan)
+* Avancerat: Användaren ska kunna byta plats på två filmer i listan (tips: Använd temporär variabel som vi har i koden för [BubbleSortExample.java](https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/Algoritmer/BubbleSortExample.java))
+
+Att ta bort en film:
+
+* Skriv ut alla filmer med index först
+
+```
+0. Film1
+1. Film2
+2. Film3
+```
+
+* Fråga användaren vilket index som ska tas bort
+* Meddela användaren vilken film som tagits bort 
+
 ## Exempel från video 2021-10-14
 
 ```java
