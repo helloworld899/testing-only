@@ -8,11 +8,11 @@ Läs dessa sidor på W3Schools:
 
 Skapa ett nytt projekt. I det här projektet ska du ha:
 
-* En meny
-* Ett menyalternativ där användaren får skriva in en favoritfilm
+* En meny (i en egen metod)
+* Ett menyalternativ där användaren får skriva in en favoritfilm (i en egen metod)
 * Favoritfilmen ska läggas in i en ArrayList
-* Ett menyalternativ där alla filmer skrivs ut
-* Ett menyalternativ där användaren får ta bort en film ur listan (se beskrivning nedan)
+* Ett menyalternativ där alla filmer skrivs ut (gör detta i en egen metod)
+* Ett menyalternativ där användaren får ta bort en film ur listan (se beskrivning nedan) (gör detta i en egen metod)
 * Avancerat: Användaren ska kunna byta plats på två filmer i listan (tips: Använd temporär variabel som vi har i koden för [BubbleSortExample.java](https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/Algoritmer/BubbleSortExample.java))
 
 Att ta bort en film:
