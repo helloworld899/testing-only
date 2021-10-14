@@ -9,9 +9,9 @@ Importera bibliotek:
 Slumpa tal:
 
     Random myRandom = new Random();
-    int dice_value = myRandom.nextInt(5) + 1;
+    int dice_value = myRandom.nextInt(6) + 1;
 
-I detta exempel får du ett tal mellan 1 och 6. `5` i `.nextInt(5)` är maxtalet och det lägsta talet är per automatik 0. I det här exemplet gör den alltså dig ett tal mellan 0 och 5 som adderar 1 till.
+I detta exempel får du ett tal mellan 1 och 6. `6` i `.nextInt(6)` är antalet värden du kan få, det lägsta talet är 0 och med 6:an blir det högsta talet du kan få en 5:a (0 till 5 är sex värden). I det här exemplet gör den alltså dig ett tal mellan 0 och 5 som adderar 1 till.
 
 
 ## Läsa användardata
