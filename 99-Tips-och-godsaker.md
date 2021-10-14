@@ -35,6 +35,9 @@ Mer information: https://www.w3schools.com/java/java_user_input.asp
 
 ## Avancerat: Läsa användardata med Integer.getInt(), metod, while och try/catch
 
+* Läs mer om try/catch här: https://www.w3schools.com/java/java_try_catch.asp
+* Video som presenterar denna kod speladen in 2021-10-14
+
 ```java
 import java.util.Scanner;
 
