@@ -56,7 +56,7 @@ public class ScannerGetIntExample {
                 break;
             } catch (Exception e) {
                 //System.out.println("Exception: " + e);
-                System.out.println("Felaktigt menyval");
+                System.out.println("Felaktig indata");
             }
         }
 
