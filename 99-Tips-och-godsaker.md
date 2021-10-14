@@ -33,6 +33,38 @@ Till detta använder vi Scanner:
 
 Mer information: https://www.w3schools.com/java/java_user_input.asp
 
+## Avancerat: Läsa användardata med Integer.getInt(), metod, while och try/catch
+
+```java
+import java.util.Scanner;
+
+public class ScannerGetIntExample {
+    public static void main(String[] args) {
+        System.out.println("Get integer:");
+        int myFantasticInteger = getInt();
+        System.out.println("I picked the integer " + myFantasticInteger);
+    }
+
+    public static int getInt() {
+        Scanner myScanner = new Scanner(System.in);
+
+        int myInteger;
+
+        while (true) {
+            try {
+                myInteger = Integer.parseInt(myScanner.nextLine());
+                break;
+            } catch (Exception e) {
+                //System.out.println("Exception: " + e);
+                System.out.println("Felaktigt menyval");
+            }
+        }
+
+        return myInteger;
+    }
+}
+```
+
 ## Print format: `printf()`
 
 Se inspelning från 2021-10-01.
