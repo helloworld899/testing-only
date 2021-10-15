@@ -44,8 +44,11 @@ Level up (gör en eller fler av dessa):
 Skapa en LinkedList och spara integers i dem. Skapa metoder som gör följande:
 
 - Räknar ut totalen av alla integers i listan
-- Räknar ut snittet av alla integers i listan
+- Räknar ut median av alla integers i listan
 - Räknar ut medelvärdet av alla integers i listan
+
+Eller om du vill göra andra matterelaterade uppgifter:
+- Räknar ut hypotenusan av en triangel
 
 #### Git
 
