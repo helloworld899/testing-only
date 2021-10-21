@@ -90,7 +90,98 @@ public class TheBigMystery {
 
 ## Varför använder vi enkapsulering? Hur gör vi utan det?
 
-Enkapsulering är inte ett måste men gör dina program mer framtidssäkra. 
+Enkapsulering är inte ett måste men gör dina program mer framtidssäkra.
+
+https://www.w3schools.com/java/java_encapsulation.asp
+
+## Arv
+
+https://www.w3schools.com/java/java_inheritance.asp
+
+Arv är aktuellt när flera olika klasser har många saker gemensamt. Katter och hundar är kanske olika djur - men de är båda djur. Det betyder att vi skulle kunna ha en hierarki som ser ut såhär:
+
+- class Animal
+  - class Dog
+  - class Cat
+
+Sättet vi skapar en hierarki som denna i Java är att vi använder ordet "extends" när vi deklarerar våra klasser. Så här:
+
+Animal.java:
+
+```java
+public class Animal {
+    int numberOfLegs;
+    String greeting;
+
+    public Animal(numberOfLegs) {
+        this.numberOfLegs = numberOfLegs;
+    }
+
+    public static void hello() {
+        System.out.println(greeting);
+    }
+}
+``` 
+
+Cat.java:
+
+```java
+public class Cat extends Animal {
+    // ... your code here
+}
+``` 
+
+Dog.java:
+
+```java
+public class Dog extends Animal {
+    // ... your code here
+}
+```
+
+**Extends gör att Dog och Cat ärver attribut och metoder som deklarerats i Animal.**
+
+Om vi nu gör detta:
+
+```java
+Dog myDog = new Dog(4);
+myDog.greeting = "Hello, I'm a dog.";
+myDog.hello();
+```
+
+Kommer metoden `hello()` och attributet `greeting` finnas i Dog.
+
+### Men vad gör vi med `Cat` och `Dog` då?
+
+Nu kommer vi in på det som dessa djur inte har gemensamt. Exempelvis är katter bättre på att smyga än hundar, så i klassen `Cat` kanske vi har en metod för det:
+
+
+```java
+public class Cat extends Animal {
+    public static void sneak() {
+        System.out.println("I'm a cat and I am sneaking.");
+    }
+}
+``` 
+
+## Polymorfism
+
+https://www.w3schools.com/java/java_polymorphism.asp
+
+Polymorfism handlar om att göra ändringar **i någonting vi ärvt** efter att vi ärvt något. Detta inkluderar "Override" och "Overload".
+
+Konkret så kanske en hund och en katt båda hälsar, men hunden gör det lite annorlunda. Så här:
+
+```java
+public class Dog extends Animal {
+    public static void hello() {
+        System.out.println("The dog is very exited to see you!");
+        System.out.println(greeting);
+    }
+}
+```
+
+Här "override:ar" vi metoden `hello()` som vi ärvde från Animal. Vi har gjort en liten ändring i hur den fungerar.
 
 ## TODO
 
