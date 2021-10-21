@@ -48,21 +48,21 @@ public class Player {
     }
 
     // Hur många ledtrådar har vi samlat på oss?
-    public static int getCluesCollected() {
+    public int getCluesCollected() {
         return cluesCollected; // kan även stå this.cluesCollected
     }
 
-    public static void addClue() {
+    public void addClue() {
         cluesCollected++; // Om vi hittar en ny ledtråd ökar vi cluesCollected med 1
     }
 
     // Enkapsulering av attributet "name"
-    public static String getName() {
+    public String getName() {
         return name;
     }
 
     // Enkapsulering av attributet "name"
-    public static void setName(String newName) {
+    public void setName(String newName) {
         this.name = newName;
     }
 }
@@ -117,7 +117,7 @@ public class Animal {
         this.numberOfLegs = numberOfLegs;
     }
 
-    public static void hello() {
+    public void hello() {
         System.out.println(greeting);
     }
 }
@@ -158,7 +158,7 @@ Nu kommer vi in på det som dessa djur inte har gemensamt. Exempelvis är katter
 
 ```java
 public class Cat extends Animal {
-    public static void sneak() {
+    public void sneak() {
         System.out.println("I'm a cat and I am sneaking.");
     }
 }
@@ -174,7 +174,7 @@ Konkret så kanske en hund och en katt båda hälsar, men hunden gör det lite a
 
 ```java
 public class Dog extends Animal {
-    public static void hello() {
+    public void hello() {
         System.out.println("The dog is very exited to see you!");
         System.out.println(greeting);
     }
@@ -182,6 +182,22 @@ public class Dog extends Animal {
 ```
 
 Här "override:ar" vi metoden `hello()` som vi ärvde från Animal. Vi har gjort en liten ändring i hur den fungerar.
+
+# Glosor
+
+## Access modifiers: public, private, protected
+
+- public betyder att informationen är tillgänglig för alla. Vem som helst kan komma åt eller ändra ett attribut, eller anropa en metod
+- private betyder att endast klassen som metoden eller attributet eller metoden deklareras i får komma åt den
+- protected är som private men även klasser som ärver kommer åt attributen eller metoderna
+- https://www.w3schools.com/java/java_modifiers.asp
+- https://iq.opengenus.org/public-private-protected-in-java/
+
+# static
+
+Om du sätter ett attribut till `static` så delas det med alla andra instanser av den klassen. Om du ändrar en så ändras det för alla.
+
+- https://www.w3schools.com/java/java_modifiers.asp
 
 ## TODO
 
