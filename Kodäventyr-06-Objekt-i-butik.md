@@ -42,6 +42,7 @@ Gällande koden så vill jag se detta:
 - En metod som heter `getUserInt` som retunerar en int (se exempel från video 2021-10-14)
 - Deklarera din `ArrayList` i klassen (`MyShop`), och ej i metoderna (se video 2021-10-15)
 - Deklarera dina `Scanner` i metoderna, och inte i klassen. Scanner ska endast finnas med i metoderna `getUserString` och `getUserInt`. Detta är i klassen `MyShop`.
+- Se fler punkter nedan för respektive klass
 
 ### Metoder
 
