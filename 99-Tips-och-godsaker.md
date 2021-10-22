@@ -95,3 +95,7 @@ Så om vi i koden har detta:
 ```
 
 Och sedan kan du använda en for-loop och lägga in alla filmer i arrayen `String[]`.
+
+## Att göra musik med Java
+
+Se kod här: https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/Music/ToneExperiment.java
