@@ -99,3 +99,7 @@ Och sedan kan du använda en for-loop och lägga in alla filmer i arrayen `Strin
 ## Att göra musik med Java
 
 Se kod här: https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/Music/ToneExperiment.java
+
+## toString() med objekt och klasser
+
+Se video 2021-10-22.
