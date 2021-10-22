@@ -73,3 +73,25 @@ public class ScannerGetIntExample {
 Se inspelning från 2021-10-01.
 
 https://w3.cs.jmu.edu/molloykp/teaching/cs149/cs149_2020Fall/labs/ScannerPrintfLab/printf_reference.pdf
+
+## Att dela upp strängar
+
+Säg att du använder Scanner och ska skriva in dina favoritfilmer, men du vill inte göra menyvalet 12 gånger om du vill skriva in 12 filmer. Istället kan du låta användaren skriva in en gång men kommaseparera filmerna, typ såhär:
+
+    Vilken är din favoritfilm?
+    > Wild Wild West, Independence Day
+
+Med `split()` kan vi dela den här strängen till 2 filmtitlar.
+
+https://www.w3schools.com/java/java_ref_string.asp
+
+    split() 	Splits a string into an array of substrings 	String[]
+
+Så om vi i koden har detta:
+
+```java
+    String favoriteMovies = getUserString();
+    String[] favoriteMovieArray = favoriteMovies.split(",");
+```
+
+Och sedan kan du använda en for-loop och lägga in alla filmer i arrayen `String[]`.
