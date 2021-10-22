@@ -103,3 +103,6 @@ Se kod här: https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/Music/To
 ## toString() med objekt och klasser
 
 Se video 2021-10-22.
+
+- https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/OOIntro/Burk.java
+- https://github.com/zocom-bjorn-pettersson/CAWS21/blob/main/OOIntro/MyOOIntro.java
