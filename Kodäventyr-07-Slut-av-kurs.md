@@ -32,4 +32,4 @@ Undersök var Java Swing är. Se vad du hittar för dokumentation och videor på
 
 ## Är du nyfiken på nästa kurs?
 
-* Ta reda på vad du kan hitta om Docker, git, Linux, shellscript, virtualisering.
+* Ta reda på vad du kan hitta om Docker, git, Linux, shellscript, virtualisering. Tips: Ord som "fundamentals", "basics" och "introduction" är bra ord att ha med i sökningen.
